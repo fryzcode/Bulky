@@ -252,3 +252,9 @@
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.DataAccess.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.Models.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.Utility.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.DataAccess.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.Models.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Bulky.Utility.pdb
