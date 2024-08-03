@@ -7,11 +7,13 @@ public class UnitOfWork : IUnitOfWork
 {
     private ApplicationDbContext _db;
     public ICategoryRepository Category { get; private set; }
-    
+    public ICategoryRepository Product { get; }
+
     public UnitOfWork(ApplicationDbContext db)
     {
         _db = db;
         Category = new CategoryRepository(_db);
+        Product = new CategoryRepository(_db);
     }
     
     public void Save()
