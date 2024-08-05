@@ -2,7 +2,7 @@ using Bulky.Models;
 
 namespace Bulky.DataAccess.Repository.IRepository;
 
-public interface IProductRepository : IRepository<ProductRepository>
+public interface IProductRepository : IRepository<Product>
 {
-    void Update(ProductRepository obj);
+    void Update(Product obj);
 }
