@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6YpGXR52K6k50MiyldmmVEvCm/BojL3aKc8MO4Gd4fE=",
+  "Hash": "vyT5h+a4ugH72rR5nEznsGbmNr7ZkyLNNaW9KFql8GQ=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/product/89620879-e063-4f64-ab06-5ffa6b276a5e.webp",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "images/product/89620879-e063-4f64-ab06-5ffa6b276a5e.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/product/89620879-e063-4f64-ab06-5ffa6b276a5e.webp"
     },
     {
       "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/site.js",
