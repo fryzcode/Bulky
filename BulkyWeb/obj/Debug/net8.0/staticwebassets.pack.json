@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/product/89620879-e063-4f64-ab06-5ffa6b276a5e.webp"
     },
     {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/product.js",
+      "PackagePath": "staticwebassets/js/product.js"
+    },
+    {
       "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
