@@ -261,3 +261,9 @@
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
