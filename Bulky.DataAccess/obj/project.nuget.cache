@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8lTsEJZPGVbX897iqz4iLRw9ZdarxY1Sb7ShTHtRYMr40gmkVWyMM0r05t/nNVvAPX22R6O6Oam3qc0Kp55tzA==",
+  "dgSpecHash": "UWxEFwc7c/3P6PaSNvjnaAbGMBY0QhVadn+JoKQDDB/HUdekgNQIWZ2VWjLWyZ27piuU0el6aIlAk0hdTAUxZA==",
   "success": true,
   "projectFilePath": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/8.0.7/microsoft.aspnetcore.identity.entityframeworkcore.8.0.7.nupkg.sha512",
+    "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.7/microsoft.aspnetcore.identity.ui.8.0.7.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.jsonpatch/2.2.0/microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.0/microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
@@ -57,7 +58,8 @@
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.dependencymodel/8.0.1/microsoft.extensions.dependencymodel.8.0.1.nupkg.sha512",
-    "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.2.0/microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.7/microsoft.extensions.fileproviders.embedded.8.0.7.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.hosting.abstractions/2.2.0/microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.identity.core/8.0.7/microsoft.extensions.identity.core.8.0.7.nupkg.sha512",
     "/Users/faryazhajimuradov/.nuget/packages/microsoft.extensions.identity.stores/8.0.7/microsoft.extensions.identity.stores.8.0.7.nupkg.sha512",
