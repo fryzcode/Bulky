@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XFkerPdVOJxxosUwhaXEUphGilwx81Ib58tSNtyBGXo=",
+  "Hash": "8EvQhKWAY5XOUgte80UoDLRvMk/4+5UGOj+g5npc+X4=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -1402,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/product/dad99119-9856-4497-bd46-3c5afb07b474.jpg"
+    },
+    {
+      "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/company.js",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/company.js"
     },
     {
       "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/product.js",
