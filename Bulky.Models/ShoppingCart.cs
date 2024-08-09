@@ -4,8 +4,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Bulky.Models;
 
-public class ShoppingCart
-{
+public class ShoppingCart {
     public int Id { get; set; }
 
     public int ProductId { get; set; }
