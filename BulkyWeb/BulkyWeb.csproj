@@ -32,7 +32,6 @@
       <AdditionalFiles Include="Areas\Admin\Views\Category\Index.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\Company\Index.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\Company\Upsert.cshtml" />
-      <AdditionalFiles Include="Areas\Customer\Views\Cart\Details.cshtml" />
       <AdditionalFiles Include="Areas\Customer\Views\Home\Index.cshtml" />
       <AdditionalFiles Include="Areas\Customer\Views\Home\Privacy.cshtml" />
     </ItemGroup>
