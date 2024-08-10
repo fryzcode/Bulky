@@ -19,13 +19,19 @@ public class Repository<T> : IRepository<T> where T : class
     
     public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = false)
     {
-        IQueryable<T> query = dbSet;
+        IQueryable<T> query;
+        if (tracked) {
+            query= dbSet;
+                
+        }
+        else {
+            query = dbSet.AsNoTracking();
+        }
+
         query = query.Where(filter);
-        if (!string.IsNullOrEmpty(includeProperties))
-        {
+        if (!string.IsNullOrEmpty(includeProperties)) {
             foreach (var includeProp in includeProperties
-                         .Split(new char[] { ','}, StringSplitOptions.RemoveEmptyEntries))
-            {
+                         .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries)) {
                 query = query.Include(includeProp);
             }
         }
