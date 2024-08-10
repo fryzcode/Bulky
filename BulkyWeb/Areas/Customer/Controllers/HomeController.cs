@@ -43,8 +43,21 @@ public class HomeController : Controller
         var claimsIdentity = (ClaimsIdentity)User.Identity;
         var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
         shoppingCart.ApplicationUserId= userId;
+
+        ShoppingCart cartFromDb =
+            _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId && 
+                                              u.ProductId == shoppingCart.ProductId);
+
+        if (cartFromDb != null)
+        {
+            cartFromDb.Count += shoppingCart.Count;
+            _unitOfWork.ShoppingCart.Update(cartFromDb);
+        }
+        else
+        {
+            _unitOfWork.ShoppingCart.Add(shoppingCart);
+        }
         
-        _unitOfWork.ShoppingCart.Add(shoppingCart);
         _unitOfWork.Save();
         return RedirectToAction(nameof(Index));
     }
