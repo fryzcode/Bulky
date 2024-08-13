@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/book.png",
+      "PackagePath": "staticwebassets/images/book.png"
+    },
+    {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/lawn_leaf.jpg",
+      "PackagePath": "staticwebassets/images/lawn_leaf.jpg"
+    },
+    {
       "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/product/10fc8c26-97f5-4d37-b0ad-6ea051283373.jpg",
       "PackagePath": "staticwebassets/images/product/10fc8c26-97f5-4d37-b0ad-6ea051283373.jpg"
     },
