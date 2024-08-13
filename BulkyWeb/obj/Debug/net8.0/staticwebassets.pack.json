@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets/js/company.js"
     },
     {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/order.js",
+      "PackagePath": "staticwebassets/js/order.js"
+    },
+    {
       "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },
