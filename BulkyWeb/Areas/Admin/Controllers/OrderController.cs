@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using Bulky.Models.ViewModels;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BulkyWeb.Areas.Admin.Controllers
 {
     [Area("admin")]
+    [Authorize]
     public class OrderController : Controller
     {
         
@@ -58,13 +60,55 @@ namespace BulkyWeb.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Details), new {orderId= orderHeaderFromDb.Id});
         }
+
+        [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
+        public IActionResult StartProcessing()
+        {
+            _unitOfWork.OrderHeader.UpdateStatus(OrderVM.OrderHeader.Id, SD.StatusInProcess);
+            _unitOfWork.Save();
+            TempData["Success"] = "Order Details Updated Successfully.";
+            return RedirectToAction(nameof(Details), new { orderId = OrderVM.OrderHeader.Id });
+        }
+        
+        [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
+        public IActionResult ShipOrder()
+        {
+            var orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == OrderVM.OrderHeader.Id);
+            orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
+            orderHeader.Carrier = OrderVM.OrderHeader.Carrier;
+            orderHeader.OrderStatus = SD.StatusShipped;
+            orderHeader.ShippingDate = DateTime.Now;
+            if (orderHeader.PaymentStatus == SD.PaymentStatusDelayedPayment) {
+                orderHeader.PaymentDueDate = DateTime.Now.AddDays(30);
+            }
+
+            _unitOfWork.OrderHeader.Update(orderHeader);
+            _unitOfWork.Save();
+            TempData["Success"] = "Order Shipped Successfully.";
+            return RedirectToAction(nameof(Details), new { orderId = OrderVM.OrderHeader.Id });
+        }
         
         #region API CALLS
 
         [HttpGet]
-        public IActionResult GetAll(string status)
-        {
-            IEnumerable<OrderHeader> objOrderHeaders = _unitOfWork.OrderHeader.GetAll(includeProperties:"ApplicationUser").ToList();
+        public IActionResult GetAll(string status) {
+            IEnumerable<OrderHeader> objOrderHeaders;
+
+
+            if(User.IsInRole(SD.Role_Admin)|| User.IsInRole(SD.Role_Employee)) {
+                objOrderHeaders = _unitOfWork.OrderHeader.GetAll(includeProperties: "ApplicationUser").ToList();
+            }
+            else {
+
+                var claimsIdentity = (ClaimsIdentity)User.Identity;
+                var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+                objOrderHeaders = _unitOfWork.OrderHeader
+                    .GetAll(u => u.ApplicationUserId == userId, includeProperties: "ApplicationUser");
+            }
+
 
             switch (status) {
                 case "pending":
@@ -83,10 +127,8 @@ namespace BulkyWeb.Areas.Admin.Controllers
                     break;
 
             }
-            
             return Json(new { data = objOrderHeaders });
         }
-        
         #endregion
     }
 }
