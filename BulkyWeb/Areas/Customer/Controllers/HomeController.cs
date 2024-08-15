@@ -21,6 +21,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+       
+        
         IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
 
         return View(productList);
