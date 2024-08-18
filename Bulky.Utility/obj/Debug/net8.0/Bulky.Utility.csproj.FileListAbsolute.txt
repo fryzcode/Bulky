@@ -11,3 +11,16 @@
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.pdb
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Debug/net8.0/ref/Bulky.Utility.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.csproj.AssemblyReference.cache
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.deps.json
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.dll
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.pdb
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.AssemblyReference.cache
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfoInputs.cache
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfo.cs
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.sourcelink.json
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.dll
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Bulky.Utility.dll
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.pdb
+C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Bulky.Utility.dll

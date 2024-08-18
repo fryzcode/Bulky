@@ -10032,35 +10032,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/faryazhajimuradov/.nuget/packages/": {}
+    "C:\\Users\\Faryaz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj",
       "projectName": "Bulky.DataAccess",
-      "projectPath": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
-      "packagesPath": "/Users/faryazhajimuradov/.nuget/packages/",
-      "outputPath": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/",
+      "projectPath": "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Faryaz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/faryazhajimuradov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Faryaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Models/Bulky.Models.csproj": {
-              "projectPath": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Models/Bulky.Models.csproj"
+            "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.Models\\Bulky.Models.csproj": {
+              "projectPath": "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.Models\\Bulky.Models.csproj"
             },
-            "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
-              "projectPath": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+            "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
+              "projectPath": "C:\\Users\\Faryaz\\Desktop\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj"
             }
           }
         }
@@ -10069,6 +10077,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10110,7 +10123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
