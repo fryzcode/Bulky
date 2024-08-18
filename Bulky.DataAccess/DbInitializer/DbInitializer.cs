@@ -9,12 +9,12 @@ namespace Bulky.DataAccess.DbInitializer;
 public class DbInitializer : IDbInitializer
 {
     
-    private readonly UserManager<IdentityUser> _userManager;
+    private readonly UserManager<IdentityUser?> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly ApplicationDbContext _db;
 
     public DbInitializer(
-        UserManager<IdentityUser> userManager,
+        UserManager<IdentityUser?> userManager,
         RoleManager<IdentityRole> roleManager,
         ApplicationDbContext db) {
         _roleManager = roleManager;
@@ -24,12 +24,17 @@ public class DbInitializer : IDbInitializer
     
     public void Initialize()
     {
-        try {
-            if (_db.Database.GetPendingMigrations().Count() > 0) {
+        try
+        {
+            if (_db.Database.GetPendingMigrations().Count() > 0)
+            {
                 _db.Database.Migrate();
             }
         }
-        catch(Exception ex) { }
+        catch (Exception ex)
+        {
+            return;
+        }
         
         if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult())
         {
@@ -49,7 +54,7 @@ public class DbInitializer : IDbInitializer
                 City = "Baku"
             }, "Admin123@").GetAwaiter().GetResult();
         
-            ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@dotnetmastery.com");
+            ApplicationUser? user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@dotnetmastery.com");
             _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
         }
         

@@ -7,17 +7,17 @@ namespace Bulky.Utility;
 
 public class EmailSender : IEmailSender
 {
-    private readonly string BrevoApiKey;
+    private readonly string? _brevoApiKey;
 
-    public EmailSender(IConfiguration _config) {
-        BrevoApiKey = _config.GetValue<string>("Brevo:ApiKey");
+    public EmailSender(IConfiguration config) {
+        _brevoApiKey = config.GetValue<string>("Brevo:ApiKey");
     }
 
     public async Task SendEmailAsync(string email, string subject, string htmlMessage)
     {
         using (var client = new HttpClient())
         {
-            client.DefaultRequestHeaders.Add("api-key", BrevoApiKey);
+            client.DefaultRequestHeaders.Add("api-key", _brevoApiKey);
 
             var emailData = new
             {

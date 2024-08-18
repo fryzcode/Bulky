@@ -31,17 +31,20 @@ public class OrderHeaderRepository : Repository<OrderHeader>, IOrderHeaderReposi
         }
     }
 
-    public void UpdateStripePaymentID(int id, string sessionId, string paymentIntentId)
+    public void UpdateStripePaymentId(int id, string sessionId, string paymentIntentId)
     {
         var orderFromDb = _db.OrderHeaders.FirstOrDefault(u => u.Id == id);
         if (!string.IsNullOrEmpty(sessionId))
         {
-            orderFromDb.SessionId = sessionId;
+            if (orderFromDb != null) orderFromDb.SessionId = sessionId;
         }
         if (!string.IsNullOrEmpty(paymentIntentId))
         {
-            orderFromDb.PaymentIntentId = paymentIntentId;
-            orderFromDb.PaymentDate = DateTime.Now;
+            if (orderFromDb != null)
+            {
+                orderFromDb.PaymentIntentId = paymentIntentId;
+                orderFromDb.PaymentDate = DateTime.Now;
+            }
         }
     }
 }
