@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\bin\Release\net8.0\Bulky.DataAccess.deps.json
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\bin\Release\net8.0\Bulky.DataAccess.runtimeconfig.json
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\bin\Release\net8.0\Bulky.DataAccess.dll
@@ -18,3 +19,25 @@ C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\obj\Release\net8.0\refint\Bulky.D
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\obj\Release\net8.0\Bulky.DataAccess.pdb
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\obj\Release\net8.0\Bulky.DataAccess.genruntimeconfig.cache
 C:\Users\Faryaz\Desktop\Bulky\Bulky.DataAccess\obj\Release\net8.0\ref\Bulky.DataAccess.dll
+=======
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.DataAccess.deps.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.DataAccess.runtimeconfig.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.DataAccess.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.DataAccess.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.Models.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.Utility.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.Models.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/bin/Release/net8.0/Bulky.Utility.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.csproj.AssemblyReference.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.AssemblyInfoInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.AssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.csproj.CoreCompileInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.sourcelink.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.Da.6DBD1FC4.Up2Date
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/refint/Bulky.DataAccess.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/Bulky.DataAccess.genruntimeconfig.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.DataAccess/obj/Release/net8.0/ref/Bulky.DataAccess.dll
+>>>>>>> ad8617fa8753ea24290530ba3f3434f19861c643

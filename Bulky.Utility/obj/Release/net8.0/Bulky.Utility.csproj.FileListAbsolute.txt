@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Release\net8.0\Bulky.Utility.deps.json
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Release\net8.0\Bulky.Utility.dll
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\bin\Release\net8.0\Bulky.Utility.pdb
@@ -11,3 +12,18 @@ C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Release\net8.0\Bulky.Utility.dll
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Release\net8.0\refint\Bulky.Utility.dll
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Release\net8.0\Bulky.Utility.pdb
 C:\Users\Faryaz\Desktop\Bulky\Bulky.Utility\obj\Release\net8.0\ref\Bulky.Utility.dll
+=======
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/bin/Release/net8.0/Bulky.Utility.deps.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/bin/Release/net8.0/Bulky.Utility.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/bin/Release/net8.0/Bulky.Utility.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.csproj.AssemblyReference.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.AssemblyInfoInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.AssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.csproj.CoreCompileInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.sourcelink.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/refint/Bulky.Utility.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/Bulky.Utility.pdb
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/Bulky.Utility/obj/Release/net8.0/ref/Bulky.Utility.dll
+>>>>>>> ad8617fa8753ea24290530ba3f3434f19861c643

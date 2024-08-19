@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Release\net8.0\appsettings.Development.json
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Release\net8.0\appsettings.json
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Release\net8.0\appsettings.Production.json
@@ -271,3 +272,18 @@ C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Release\net8.0\refint\BulkyWeb.dll
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Release\net8.0\BulkyWeb.pdb
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Release\net8.0\BulkyWeb.genruntimeconfig.cache
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Release\net8.0\ref\BulkyWeb.dll
+=======
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.csproj.AssemblyReference.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.AssemblyInfoInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.AssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.csproj.CoreCompileInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.RazorAssemblyInfo.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.RazorAssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.sourcelink.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/refint/BulkyWeb.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.pdb
+>>>>>>> ad8617fa8753ea24290530ba3f3434f19861c643

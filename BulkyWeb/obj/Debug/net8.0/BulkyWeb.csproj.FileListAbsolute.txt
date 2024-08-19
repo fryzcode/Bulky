@@ -271,6 +271,7 @@
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Stripe.net.dll
 /Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+<<<<<<< HEAD
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Debug\net8.0\BulkyWeb.exe
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Debug\net8.0\BulkyWeb.dll
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
@@ -544,3 +545,6 @@ C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\bin\Debug\net8.0\BulkyWeb.pdb
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Debug\net8.0\BulkyWeb.csproj.Up2Date
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Debug\net8.0\BulkyWeb.genruntimeconfig.cache
 C:\Users\Faryaz\Desktop\Bulky\BulkyWeb\obj\Debug\net8.0\ref\BulkyWeb.dll
+=======
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/bin/Debug/net8.0/appsettings.Production.json
+>>>>>>> ad8617fa8753ea24290530ba3f3434f19861c643
