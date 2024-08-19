@@ -22,16 +22,13 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{ github.workspace }}/myapp
-
-      - name: List files in publish directory
-        run: dir ${{ github.workspace }}/myapp
+        run: dotnet publish -c Release -o "./myapp"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{ github.workspace }}/myapp
+          path: ./myapp
 
   deploy:
     runs-on: windows-latest
@@ -47,16 +44,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
-      - name: List downloaded files
-        run: dir ${{ github.workspace }}
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_D7BC00BE02BF4CD7A7C8FD73604E7B11 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_EC20256ADF3E46E2A15FA838CB88E73E }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_94D3C514443A49F395ED5C5258E4D1D6 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -64,4 +58,4 @@ jobs:
         with:
           app-name: 'bulkymvc-dotnetmastery'
           slot-name: 'Production'
-          package: ${{ github.workspace }}/myapp
+          package: './myapp'
