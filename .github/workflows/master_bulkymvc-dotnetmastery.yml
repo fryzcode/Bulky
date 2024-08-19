@@ -18,13 +18,13 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - name: List files before dotnet publish
+        run: ls -R
 
       - name: dotnet publish
         run: dotnet publish -c Release -o './myapp'
 
-      - name: List files in myapp after publishing
+      - name: List files after dotnet publish
         run: ls -R ./myapp
 
       - name: Upload artifact for deployment job
@@ -50,6 +50,9 @@ jobs:
 
       - name: List files after downloading artifact
         run: ls -R ./myapp
+
+      - name: Print current directory
+        run: pwd
 
       - name: Login to Azure
         uses: azure/login@v2
