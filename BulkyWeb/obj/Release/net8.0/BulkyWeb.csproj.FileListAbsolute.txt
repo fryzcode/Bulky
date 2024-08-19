@@ -1,0 +1,13 @@
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.csproj.AssemblyReference.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.AssemblyInfoInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.AssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.csproj.CoreCompileInputs.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.RazorAssemblyInfo.cache
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.RazorAssemblyInfo.cs
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.sourcelink.json
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/refint/BulkyWeb.dll
+/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/obj/Release/net8.0/BulkyWeb.pdb
