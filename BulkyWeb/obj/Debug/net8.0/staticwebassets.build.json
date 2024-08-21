@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pLrHMHp1wzyOgqWx1d524x6nELe0+/zTchbyQpY606I=",
+  "Hash": "fohnQ+ow6LaVnst5+XJDw1JArJDXU0bpxgBsdqY6cb0=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -1630,6 +1630,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/user.js",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "js/user.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/user.js"
     },
     {
       "Identity": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
