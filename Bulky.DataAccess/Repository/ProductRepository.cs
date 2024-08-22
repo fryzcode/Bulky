@@ -27,10 +27,10 @@ public class ProductRepository : Repository<Product>, IProductRepository
             objFromDb.Description = obj.Description;
             objFromDb.CategoryId = obj.CategoryId;
             objFromDb.Author = obj.Author;
-            if (obj.ImageUrl != null)
-            {
-                objFromDb.ImageUrl = obj.ImageUrl;
-            }
+            // if (obj.ImageUrl != null)
+            // {
+            //     objFromDb.ImageUrl = obj.ImageUrl;
+            // }
             // objFromDb.ProductImages = obj.ProductImages;
         }
     }
