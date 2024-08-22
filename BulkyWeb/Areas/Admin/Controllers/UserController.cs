@@ -44,7 +44,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             };
 
             RoleVM.ApplicationUser.Role = _userManager.GetRolesAsync(_unitOfWork.ApplicationUser.Get(u=>u.Id==userId))
-                    .GetAwaiter().GetResult().FirstOrDefault();
+                .GetAwaiter().GetResult().FirstOrDefault();
             return View(RoleVM);
         }
 

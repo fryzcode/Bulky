@@ -21,35 +21,31 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-       
         
-        IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
-
+        IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
         return View(productList);
     }
-    
+
     public IActionResult Details(int productId)
     {
-        ShoppingCart cart = new()
-        {
-            Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category"),
+        ShoppingCart cart = new() {
+            Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category,ProductImages"),
             Count = 1,
-            ProductId = productId,
+            ProductId = productId
         };
         return View(cart);
     }
-    
+
     [HttpPost]
     [Authorize]
-    public IActionResult Details(ShoppingCart shoppingCart)
+    public IActionResult Details(ShoppingCart shoppingCart) 
     {
         var claimsIdentity = (ClaimsIdentity)User.Identity;
         var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
         shoppingCart.ApplicationUserId= userId;
 
-        ShoppingCart cartFromDb =
-            _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId && 
-                                              u.ProductId == shoppingCart.ProductId);
+        ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.ApplicationUserId == userId &&
+        u.ProductId==shoppingCart.ProductId);
 
         if (cartFromDb != null) {
             cartFromDb.Count += shoppingCart.Count;
@@ -60,7 +56,7 @@ public class HomeController : Controller
             _unitOfWork.ShoppingCart.Add(shoppingCart);
             _unitOfWork.Save();
             HttpContext.Session.SetInt32(SD.SessionCart,
-                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
+            _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
         }
         TempData["success"] = "Cart updated successfully";
         return RedirectToAction(nameof(Index));
@@ -74,6 +70,6 @@ public class HomeController : Controller
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
-        return View(new ErrorViewModel() { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }

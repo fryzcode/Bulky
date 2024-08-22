@@ -36,6 +36,10 @@ builder.Services.AddAuthentication().AddFacebook(option => {
     option.AppId = "1643176603191608";
     option.AppSecret = "2d4218cac1b506d8620d24c4a8672ca0";
 });
+builder.Services.AddAuthentication().AddFacebook(option => {
+    option.ClientId = "ca5006d0-a23b-4764-b4f3-920326300ad6";
+    option.ClientSecret = "0.j8Q~PfxySAZa5qCSijPg4X6926oi91Gz_khaP7";
+});
 
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddRazorPages();
