@@ -81,6 +81,14 @@
       "PackagePath": "staticwebassets/images/product/dad99119-9856-4497-bd46-3c5afb07b474.jpg"
     },
     {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/products/product-3/65416441-9d72-42f1-83e5-97296b5954d3.jpg",
+      "PackagePath": "staticwebassets/images/products/product-3/65416441-9d72-42f1-83e5-97296b5954d3.jpg"
+    },
+    {
+      "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/images/products/product-3/fd13a45e-0aba-4487-a3e0-7d2b9a2a27ad.jpg",
+      "PackagePath": "staticwebassets/images/products/product-3/fd13a45e-0aba-4487-a3e0-7d2b9a2a27ad.jpg"
+    },
+    {
       "Id": "/Users/faryazhajimuradov/Desktop/C# proj/Bulky/BulkyWeb/wwwroot/js/company.js",
       "PackagePath": "staticwebassets/js/company.js"
     },
