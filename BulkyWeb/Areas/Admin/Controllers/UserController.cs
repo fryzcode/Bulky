@@ -58,7 +58,6 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
 
             if (!(roleManagmentVM.ApplicationUser.Role == oldRole)) {
-                //a role was updated
                 if (roleManagmentVM.ApplicationUser.Role == SD.Role_Company) {
                     applicationUser.CompanyId = roleManagmentVM.ApplicationUser.CompanyId;
                 }
@@ -117,7 +116,6 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             }
 
             if(objFromDb.LockoutEnd!=null && objFromDb.LockoutEnd > DateTime.Now) {
-                //user is currently locked and we need to unlock them
                 objFromDb.LockoutEnd = DateTime.Now;
             }
             else {
