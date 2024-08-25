@@ -1,0 +1,56 @@
+# Ignore build output directories and temporary files
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Ignore user-specific files and IDE configurations
+.vscode/
+.idea/
+.idea/.idea.Bulky/
+*.DotSettings.user
+_ReSharper*/
+
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Ignore coverage and test result directories
+TestResults/
+*.coverage
+*.coveragexml
+*.ncrunch*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore NuGet packages and lock files
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Ignore publish output and web content
+wwwroot/
+
+# Ignore temporary files from macOS and Windows
+[Tt]humbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore Rider IDE files
+.idea/
+
+# Ignore files related to GitHub workflows (optional, if not needed in the repository)
+.github/
